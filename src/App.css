@@ -149,11 +149,26 @@ body {
   border: 1px solid #2a2a2a;
   color: #aaa;
   font-family: 'Syne', sans-serif;
-  font-size: 22px;
   font-weight: 700;
-  padding: 16px 0;
+  padding: 14px 0;
   cursor: pointer;
   transition: all 0.12s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.op-simbol {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.op-naziv {
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: #555;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .op-btn:hover {
@@ -161,9 +176,17 @@ body {
   color: #c8f135;
 }
 
+.op-btn:hover .op-naziv {
+  color: #c8f135;
+}
+
 .op-btn--active {
   background: #c8f135;
   border-color: #c8f135;
+  color: #0a0a0a;
+}
+
+.op-btn--active .op-naziv {
   color: #0a0a0a;
 }
 
