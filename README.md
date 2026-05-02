@@ -20,14 +20,16 @@ A clean, minimal calculator application built as part of a Distributed Systems c
 - **TypeScript** — type-safe code
 
 ## Project Structure
+```
 src/
 ├── components/
 │   └── Calculator/
 │       ├── Kalkulator.tsx        # Main UI component
-│       └── kalkulatorLogika.ts   # Calculator logic (separated from UI)
+│       └── kalkulatorLogika.ts   # Calculator logic
 ├── types/
-│   └── Kalkulator.ts             # Shared TypeScript types and interfaces
+│   └── Kalkulator.ts             # TypeScript types
 └── App.tsx                       # Root component
+```
 ## Getting Started
 
 Clone the repository and run locally:
